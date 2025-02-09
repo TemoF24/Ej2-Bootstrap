@@ -1,0 +1,95 @@
+/*cambiamos la fuente de toda la pagina a arial*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*cambiamos la fuente de los h1 y de los h2 a georgia*/
+h1,h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*cambiamos el tamaño de los parrafos a 16 px*/
+p{
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*cambiamos el tamaño de los titulos h1 a 24 px y el color de su letra a este verde*/
+h1{
+    font-size:24px;
+    color:#2E7D32;
+}
+/*cambiamos el tamaño de los titulos h2 a 20 px*/
+h2{
+    font-size:20px;
+}
+/*cambiamos el color de los enlaces*/
+a{
+    color:#81C784
+}
+/*le damos el mismo fondo a las dos cajas para tener un fondo de la pagin*/
+.descripcion,.menu{
+    background-color: #F1F8E9;
+}
+/*cambiamos el color a las ofertas especiales y a los precios*/
+.precios{
+    color:#4E342E;
+}
+/*en el encabezado le pondremos una altura y una anchura,
+ con un border y un fondo que luego cambiaremos.Pondremos todo en el 
+ centro y le daremos un relleno de 20px*/
+.encabezado{
+    width: 100%;
+    height:120px;
+    border:1px solid green;
+    background-color: greenyellow;
+    justify-content: center;
+    padding-left:20px;
+}
+/*con el logo le pondremos el tamaño que queramos, con un
+poco de amrgen del titulo*/
+#logo{
+    width: 150px;
+    height: 40px;
+    margin-right: 30px;
+}
+/*el logo nombre es la caja dentro del encabezado que
+posicionaremos bien dentro de su padre*/
+.logonombre{
+    text-align: center;
+    margin-top: 30px;
+}
+/*en la caja descripcion haremos lo mismo que con la de encabezado*/
+.descripcion{
+    justify-content: center;
+    width: 100%;
+    height:270px;
+    border:1px solid green;
+    border-bottom: 1px solid #F1F8E9;
+    justify-content: center;
+    color: rgb(64, 116, 13);
+    padding-left:20px;
+
+}
+/*en esta caja haremos lo mismo que con la de encabezado y descripcion*/
+.menu{
+    justify-content: center;
+    width: 100%;
+    height:580px;
+    border:1px solid green;
+    border-top: 1px solid #F1F8E9;
+    justify-content: center;
+    color: rgb(64, 116, 13);
+    padding-left:20px;
+}
+/*en esta caja haremos lo mismo que con la de encabezado, descripcion y menu*/
+#pie{
+text-align: center;
+width: 100%;
+height: 120px;
+justify-content: center;
+background-color: rgb(29, 37, 24);
+padding-left:20px;
+color:antiquewhite;
+padding-top: 20px;
+}
+.titulo:hover{
+    text-shadow: #060806;
+}
