@@ -33,12 +33,6 @@ El sitio web está diseñado con HTML y utiliza Bootstrap para el diseño respon
 1. Abre el archivo `index.html` en tu navegador para ver la página del restaurante.
 2. Si deseas realizar modificaciones, puedes editar el archivo `index.html` directamente.
 
-## Enlaces de redes sociales
-
-- **Instagram**: [Instagram](#)
-- **Facebook**: [Facebook](#)
-- **TikTok**: [TikTok](#)
-- **X (anteriormente Twitter)**: [X](#)
 
 ## Licencia
 
